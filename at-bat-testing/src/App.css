@@ -1,0 +1,108 @@
+.App {
+    width: 100%;
+    border: 1px solid white;
+    display: flex;
+    justify-content: center;
+}
+
+.hits {
+    display: flex;
+    width: 40%;
+    align-items: center;
+    border-right: 2px solid white;
+}
+
+.strikesandballs {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+.display {
+    display: flex;
+    justify-content: space-evenly;
+    border: 2px solid white;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.5);
+    padding: 2%;
+}
+
+.strikes {
+    display: flex;
+}
+
+.balls {
+    display: flex;
+}
+
+.score {
+    border: 1px solid white;
+    display: flex;
+    align-items: center;
+    margin-left: 5%;
+    font-size: 2rem;
+}
+
+.dashboard {
+    margin-top: 10%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.strikes span {
+    color: rgb(253, 115, 115);
+}
+
+.balls span {
+    color: lightskyblue;
+}
+
+.hits span {
+    color: rgb(99, 206, 99);
+}
+
+button {
+    border-radius: 5px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    background: white;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.hitbtn {
+    border: 2px solid green;
+    color: green;
+}
+
+.hitbtn:hover {
+    background: rgb(155, 219, 155);
+}
+
+.strikebtn {
+    border: 2px solid red;
+    color: red;
+}
+
+.strikebtn:hover {
+    background: rgb(255, 144, 144);
+}
+
+.ballbtn {
+    border: 2px solid blue;
+    color: blue;
+}
+
+.ballbtn:hover {
+    background: rgb(166, 166, 255);
+}
+
+.foulbtn {
+    border: 2px solid black;
+    color: black;
+}
+
+.foulbtn:hover {
+    background: rgb(150, 150, 150);
+}
